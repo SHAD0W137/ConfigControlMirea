@@ -1,16 +1,16 @@
-All functionality works with single main.py
+#All functionality works with single main.py
 
-While using Windows CMD, go to main.py directory
+#While using Windows CMD, go to main.py directory
 (for instance, "C:\test>" )
 ![image](https://github.com/user-attachments/assets/c608f69a-7946-43d3-8a5d-dfeacfe90645)
 
-Then type in this command:
+#Then type in this command:
 python main.py --hostname null --filesystem null --logfile null --startup_script null --generate_files
 All necessary demo files are now generated
 ![image](https://github.com/user-attachments/assets/a76bc51f-9bc1-4f4c-aa81-f50abf42685c)
 ![image](https://github.com/user-attachments/assets/62ef7459-fe7c-4b47-ab6e-0e5b900ca682)
 
-Now we can actually start the emulator:
+#Now we can actually start the emulator:
 python main.py --hostname shad0w137 --filesystem C:\test\virtual_fs.tar --logfile C:\test\log.csv --startup_script C:\test\startup_script.sh
 
 All of the required features have been tested. Tests were successful. 
