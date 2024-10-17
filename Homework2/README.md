@@ -26,3 +26,5 @@
 
 ![mygraph](https://github.com/user-attachments/assets/143a7af3-455b-4463-836f-e96a8b35667a)
 
+###Результат для другого репозитория:
+![mygraph](https://github.com/user-attachments/assets/b6586a9c-d8ba-4ec6-8557-8c9a85b1114c)
