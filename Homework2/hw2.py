@@ -5,6 +5,7 @@ import git
 import tempfile
 import shutil
 import stat
+import ctypes
 
 CONFIG_FILE = "config.csv"
 
@@ -65,6 +66,9 @@ def visualize_graph(graphviz_path, dot_graph):
         dot_file.flush()
 
         try:
+            shell32 = ctypes.windll.shell32
+            SU_FLAG = 0x00000080
+            shell32.ShellExecuteW(None, "runas", graphviz_path, f"-Tpng {dot_file.name} -o C:\\Users\\admin\\Desktop\\Study\\ConfigControl\\HW22\\mygraph.png", None, SU_FLAG)
             result = subprocess.run([graphviz_path, "-Tpng", dot_file.name, "-o", "C:\\Users\\admin\\Desktop\\Study\\ConfigControl\\HW22\\mygraph.png"])
             return subprocess.CompletedProcess(returncode=0, args=[], stdout=b"Graph visualization successful (png output to stdout).") 
         except subprocess.CalledProcessError as e:
