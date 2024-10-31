@@ -1,4 +1,4 @@
-### This a code parser from custom Configuration Language to TOML language
+### This is a code parser from custom Configuration Language to TOML language
 
 ### Task:
 ```
@@ -63,6 +63,6 @@ ANOTHER = 20
 YETANOTHEREXAMPLE = 148
 ANDAGAIN = 8800
 ```
-### Image:
+### Screenshot report:
 ![image](https://github.com/user-attachments/assets/6c4e72dc-ed6c-4389-b074-f9c4d37c040a)
 
