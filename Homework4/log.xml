@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<log>
+    <var register_0="-3">Data recorded to register</var>
+    <var register_1="-2">Data recorded to register</var>
+    <var register_2="-1">Data recorded to register</var>
+    <var register_3="1">Data recorded to register</var>
+    <var register_4="2">Data recorded to register</var>
+    <var register_5="3">Data recorded to register</var>
+    <var register_6="4">Data recorded to register</var>
+    <var register_7="-10">Data recorded to register</var>
+    <put memory_cell_0="-3">Recording data to memory</put>
+    <put memory_cell_1="-2">Recording data to memory</put>
+    <put memory_cell_2="-1">Recording data to memory</put>
+    <put memory_cell_3="1">Recording data to memory</put>
+    <put memory_cell_4="2">Recording data to memory</put>
+    <put memory_cell_5="3">Recording data to memory</put>
+    <put memory_cell_6="4">Recording data to memory</put>
+    <put memory_cell_7="-10">Recording data to memory</put>
+    <get register_7="-3">From memory to register</get>
+    <get register_6="-2">From memory to register</get>
+    <get register_5="-1">From memory to register</get>
+    <get register_4="1">From memory to register</get>
+    <get register_3="2">From memory to register</get>
+    <get register_2="3">From memory to register</get>
+    <get register_1="4">From memory to register</get>
+    <get register_0="-10">From memory to register</get>
+    <abs memory_cell_8="10">Applying abs function and recording</abs>
+    <abs memory_cell_9="4">Applying abs function and recording</abs>
+    <abs memory_cell_10="3">Applying abs function and recording</abs>
+    <abs memory_cell_11="2">Applying abs function and recording</abs>
+    <abs memory_cell_12="1">Applying abs function and recording</abs>
+    <abs memory_cell_13="1">Applying abs function and recording</abs>
+    <abs memory_cell_14="2">Applying abs function and recording</abs>
+    <abs memory_cell_15="3">Applying abs function and recording</abs>
+</log>
